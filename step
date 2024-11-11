@@ -1,0 +1,9 @@
+class Task:
+    def __init__(self, title, description, deadline):
+        self.title = title
+        self.description = description
+        self.deadline = deadline
+        self.status = False  #False означає, що завдання не виконано
+ 
+    def mark_completed(self):
+        self.status = True #Відмічає завдання як виконане.
